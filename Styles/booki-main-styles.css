@@ -1,11 +1,12 @@
 body {
   font-family: Raleway, arial;
   margin-left: 30px;
-  height: 3000px;
+
 }
 
 .main-flexbox{
   display: flex;
+  align-items: center;
 }
 
 .gray-box {
@@ -15,6 +16,7 @@ body {
   flex-direction: column;
   width: 840px;
   border-radius: 20px;
+  margin-top: 20px;
 }
 
 .white-box-flex {
@@ -57,11 +59,12 @@ body {
 .second-gray-box {
   background-color: #f2f2f2;
   margin-left: 50px;
+  margin-top: 5px;
   border-radius: 20px;
   width: 375px;
+  height: 705px;
   padding-right: 30px;
   padding-left: 30px;
-  
 }
 
 .populaires {
