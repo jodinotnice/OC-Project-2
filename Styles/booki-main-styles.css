@@ -1,6 +1,7 @@
 body {
   font-family: Raleway, arial;
   margin-left: 30px;
+  height: 3000px;
 }
 
 .main-flexbox{
@@ -44,13 +45,20 @@ body {
 
 .align-text-hebergement {
   padding-left: 10px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.align-sous-text-hebergement {
+  padding-left: 10px;
+  margin-top: 5px;
 }
 
 .second-gray-box {
   background-color: #f2f2f2;
   margin-left: 50px;
   border-radius: 20px;
-  width: 400px;
+  width: 375px;
   padding-right: 30px;
   padding-left: 30px;
   
@@ -65,7 +73,7 @@ body {
 .second-white-box {
   background-color: white;
   display: flex;
-  width: 375px;
+  width: 360px;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
@@ -100,3 +108,56 @@ body {
   position: absolute;
   bottom: 10px;
 }
+
+.activites-flex {
+  display: flex;
+  justify-content: space-around;;
+}
+.third-white-box {
+width: 310px;
+height: 480px;
+border-radius: 20px;
+box-shadow: 3px 3px 3px 4px rgba(87, 87, 87, 0.05);
+}
+
+.img-activites {
+  width: 310px;
+  height: 420px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.pop-text-activ-font {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.footer-flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  margin-top: 70px;
+}
+
+.footer-gray-box {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+  width: 1350px; 
+}
+
+.title-footer {
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.sous-titre-footer {
+  padding-bottom: 10px;
+}
+
+
