@@ -6,7 +6,8 @@ body {
 
 .main-flexbox{
   display: flex;
-  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
 
 .gray-box {
@@ -16,7 +17,8 @@ body {
   flex-direction: column;
   width: 840px;
   border-radius: 20px;
-  margin-top: 20px;
+  height: 640px;
+  
 }
 
 .white-box-flex {
@@ -31,9 +33,9 @@ body {
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   border-radius: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 9px;
   box-shadow: 1px 1px 1px 1px rgba(87, 87, 87, 0.1);
 }
 
@@ -46,24 +48,22 @@ body {
 }
 
 .align-text-hebergement {
-  padding-left: 10px;
+  padding-left: 5px;
   font-weight: bold;
   margin-top: 5px;
 }
 
 .align-sous-text-hebergement {
   padding-left: 10px;
-  margin-top: 5px;
+
 }
 
 .second-gray-box {
   background-color: #f2f2f2;
-  margin-left: 50px;
-  margin-top: 5px;
   border-radius: 20px;
-  width: 375px;
-  height: 705px;
-  padding-right: 30px;
+  width: 380px;
+  height: 640px;
+  padding-right: 35px;
   padding-left: 30px;
 }
 
@@ -76,7 +76,7 @@ body {
 .second-white-box {
   background-color: white;
   display: flex;
-  width: 360px;
+  width: 375px;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
@@ -112,20 +112,24 @@ body {
   bottom: 10px;
 }
 
+.text-activ-font {
+  margin-left: 100px;
+}
 .activites-flex {
   display: flex;
-  justify-content: space-around;;
+  justify-content: center;
+  gap: 35px;
 }
 .third-white-box {
-width: 310px;
-height: 480px;
+width: 280px;
+height: 450px;
 border-radius: 20px;
 box-shadow: 3px 3px 3px 4px rgba(87, 87, 87, 0.05);
 }
 
 .img-activites {
-  width: 310px;
-  height: 420px;
+  width: 280px;
+  height: 390px;
   object-fit: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -141,7 +145,6 @@ box-shadow: 3px 3px 3px 4px rgba(87, 87, 87, 0.05);
 .footer-flexbox {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-right: 30px;
   margin-top: 70px;
 }
@@ -149,8 +152,8 @@ box-shadow: 3px 3px 3px 4px rgba(87, 87, 87, 0.05);
 .footer-gray-box {
   background-color: #f2f2f2;
   display: flex;
-  justify-content: space-around;
-  width: 1350px; 
+  gap: 300px;
+  width: 1330px; 
 }
 
 .title-footer {
