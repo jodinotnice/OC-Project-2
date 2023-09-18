@@ -1,8 +1,3 @@
-header {
-  font-family: Raleway, arial;
-  margin-left: 20px;
-  margin-right: 20px;
-}
 .header-flex {
   display: flex;
   justify-content: space-between;
@@ -14,7 +9,6 @@ header {
 
 .header-flex-menu {
   display: flex;
-  
 }
 
 .menu-hebergement {
@@ -27,6 +21,7 @@ header {
   border-left: none;
   border-right: none;
   border-bottom: none;
+  font-size: 16px;
 }
 
 .menu-activites {
@@ -34,6 +29,7 @@ header {
   margin-top: -8px;
   background-color: white;
   border: none;
+  font-size: 16px;
 }
 
 .text-header {
@@ -48,6 +44,9 @@ header {
   
 }
 
+.search-flex {
+  display: flex;
+}
 .localisation-button{
   height:34px;
   margin-right:-1px;
