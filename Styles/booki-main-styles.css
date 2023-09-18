@@ -6,18 +6,19 @@ body {
 
 .main-flexbox{
   display: flex;
-  justify-content: center;
   gap: 30px;
 }
 
 .gray-box {
   background-color: #f2f2f2;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   border-radius: 20px;
-  width: 840px;
-  height: auto;
-  padding-left: 25px;
+}
+
+.container {
   
+  margin-left: 5%;
 }
 
 .h1-hebergements {
@@ -27,10 +28,10 @@ body {
 }
 
 .white-box-flex {
-  display: grid;
-  grid-template-columns: 200px 200px 200px;
-  column-gap: 80px;
-  row-gap: 30px;
+  display: flex;
+  flex-wrap:wrap;
+  row-gap:25px;
+  justify-content: space-evenly;
 }
 
 .white-box {
@@ -72,8 +73,6 @@ body {
 .second-gray-box {
   background-color: #f2f2f2;
   border-radius: 20px;
-  width: auto;
-  height: auto;
   padding-right: 35px;
   padding-left: 30px;
 }
@@ -152,7 +151,7 @@ box-shadow: 3px 3px 3px 4px rgba(87, 87, 87, 0.05);
 .pop-text-activ-font {
   font-weight: bold;
   margin-top: 15px;
-  margin-left: 20px;
+  margin-left: 2%;
   font-size: 15px;
 }
 
