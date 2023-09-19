@@ -5,6 +5,7 @@
 
 .logo {
   width: 75px;
+  margin-top: 20px;
 }
 
 .header-flex-menu {
@@ -22,6 +23,32 @@
   border-right: none;
   border-bottom: none;
   font-size: 16px;
+  text-decoration: none;
+}
+
+.redirec-heberg {
+  text-decoration: none;
+}
+
+.redirec-heberg:visited {
+  color: rgba(55,134,253,255);
+}
+
+.redirec-activites {
+  text-decoration: none;
+}
+
+.redirec-activites:visited {
+  color: black;
+}
+
+.general-link {
+  color: initial;
+  text-decoration: none;
+}
+
+.general-link:visited {
+  color: initial;
 }
 
 .menu-activites {
@@ -46,6 +73,7 @@
 
 .search-flex {
   display: flex;
+  margin-top: 40px;
 }
 .localisation-button{
   height:34px;
@@ -92,6 +120,7 @@
 
 .text-filtre-header {
   font-weight: bold;
+  font-size: 17px;
   margin-right: 10px;
 }
 
@@ -103,7 +132,9 @@
   border-radius: 20px;
   border-color: rgb(228, 228, 228);
   margin-right: 10px;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 130px;
 }
 
 .filtres-header:hover {
@@ -130,7 +161,10 @@
   border-color: rgb(228, 228, 228);
 }
 
+.last-box-header {
+  margin-bottom: 20px;
+}
+
 .last-text {
   font-size: 15px;
-
 }
