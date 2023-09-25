@@ -158,7 +158,21 @@
   height: 20px;
   border-radius: 10px;
   padding-top:-1px;
+  color: #68a4fd;
   border-color: rgb(228, 228, 228);
+}
+
+.fa-star,
+.fa-money-bill-wave,
+.fa-person,
+.fa-heart,
+.fa-fire,
+.fa-chart-line {
+  color: #0065fc;
+}
+
+.grey-color {
+  color: #f2f2f2;
 }
 
 .last-box-header {
