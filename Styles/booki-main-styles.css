@@ -14,6 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
+  padding: 10px;
 }
 
 .container {
@@ -52,33 +53,10 @@ body {
     margin: auto;
   }
   .white-box {
-    flex-basis: 24%;
+    flex-basis: 33%;
   }
 
 }
-
-@media (min-width: 768px) and (max-width: 1024px ) {
- 
-  body {
-    max-width: 1024px;
-    
-  }
-
-  .main-flexbox {
-    display: flex;
-    flex-direction:column;
-  }
-
-  .media-flex {
-    display: flex
-  }
-
-  .second-white-box {
-    max-width: 80%;
-  }
-
-}
-
 
 
 .img-hebergements {
@@ -125,7 +103,7 @@ body {
 .second-white-box {
   background-color: white;
   display: flex;
-  width:350px;
+  width: 100%;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
@@ -158,6 +136,43 @@ body {
 .rating {
   position: absolute;
   bottom: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px ) {
+ 
+  body {
+    max-width: 1024px;
+    
+  }
+
+  .main-flexbox {
+    display: flex;
+    flex-direction:column;
+  }
+
+  .media-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+  }
+
+  .second-gray-box {
+   padding-left: 30px;
+   padding-right: 30px;
+  }
+
+  .pop-text-font {
+    font-size: 13px;
+  }
+
+  .pop-sous-text-font {
+    font-size: 11px;
+  }
+
+  .rating {
+    position: absolute;
+    bottom: 5px;
+  }
 }
 
 .text-activ-font {
@@ -193,9 +208,22 @@ box-shadow: 3px 3px 3px 4px rgba(87, 87, 87, 0.05);
   font-size: 15px;
 }
 
+@media (min-width: 768px) and (max-width: 1024px ) {
+  .third-white-box {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .img-activites {
+    height: 200px;
+    width: 100%;
+  }
+}
+
 .footer-flexbox {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-right: 30px;
   margin-top: 70px;
 }
@@ -203,9 +231,8 @@ box-shadow: 3px 3px 3px 4px rgba(87, 87, 87, 0.05);
 .footer-gray-box {
   background-color: #f2f2f2;
   display: flex;
-  gap: 300px;
+  justify-content: space-evenly;
   width: 100%;
-  margin-left:30px; 
 }
 
 .title-footer {
@@ -216,6 +243,17 @@ box-shadow: 3px 3px 3px 4px rgba(87, 87, 87, 0.05);
 
 .sous-titre-footer {
   padding-bottom: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px ) {
+  .footer-flexbox {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .footer-gray-box {
+    width: 100%;
+  }
 }
 
 
