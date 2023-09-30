@@ -1,5 +1,8 @@
 body {
   font-family: Raleway, arial;
+}
+
+.body-margin {
   margin-left: 30px;
   margin-right: 30px;
 }
@@ -16,18 +19,19 @@ body {
 
 .header-flex-menu {
   display: flex;
+  border:none
 }
 
 .menu-hebergement {
   color: rgba(55,134,253,255);
-  margin-right: 50px;
+  
   height: 50px;
   margin-top: -8px;
   background-color: white;
   border-top-color: rgba(55,134,253,255);
   border-left: none;
   border-right: none;
-  border-bottom: none;
+  border-bottom: white;
   font-size: 16px;
   text-decoration: none;
 }
@@ -61,7 +65,10 @@ body {
   height: 50px;
   margin-top: -8px;
   background-color: white;
-  border: none;
+  border-left:none;
+  border-right: none;
+  border-bottom: white;
+  border-top:none;
   font-size: 16px;
 }
 
@@ -191,7 +198,7 @@ body {
 
 @media (min-width: 320px) and (max-width: 768px )  {
 
-  .body {
+  body {
     margin: 0;
   }
 
@@ -199,21 +206,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
   }
   
+  .header-flex-menu {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+  }
+
   .menu-hebergement{
-    margin-top: 40px;
     border-bottom-color: rgba(55,134,253,255);
     border-top: none;
-    width: 48%;
+    width: 100%;
   }
 
   .menu-activites {
-    margin-top: 40px;
-    border-bottom-color: black;
+    border-bottom-color: rgb(f2f2f2);
     border-top: none;
-    width: 48%;
+    width: 100%;
   }
 
   .text-header {
@@ -597,13 +607,13 @@ box-shadow: 3px 3px 3px 4px rgba(87, 87, 87, 0.05);
 
   .footer-flexbox {
     display: flex;
-    margin-right: 0;
+    width: 100%;
   }
   
   .footer-gray-box {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100vmax;
     
 }
 
