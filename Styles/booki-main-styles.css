@@ -24,13 +24,13 @@ body {
 
 .menu-hebergement {
   color: rgba(55,134,253,255);
-  
   height: 50px;
   margin-top: -8px;
   background-color: white;
+  border-style: solid;
   border-top-color: rgba(55,134,253,255);
-  border-left: none;
-  border-right: none;
+  border-left: white;
+  border-right: white;
   border-bottom: white;
   font-size: 16px;
   text-decoration: none;
@@ -64,6 +64,7 @@ body {
 .menu-activites {
   height: 50px;
   margin-top: -8px;
+  border-style: solid;
   background-color: white;
   border-left:none;
   border-right: none;
@@ -86,21 +87,22 @@ body {
 
 .search-flex {
   display: flex;
+  align-items: center;
   margin-top: 40px;
 }
 .localisation-button{
-  height:34px;
+  height:44px;
   margin-right:-1px;
   border-top-left-radius:10px;
   border-bottom-left-radius:10px;
   border: none;
-  width: 35px;
+  width: 45px;
 }
 
 .search-bar {
   font-weight: bold;
   text-align: center;
-  height: 30px;
+  height: 40px;
   border-style: solid;
   border-color: rgba(242,242,242,255);
   border-width: 1px;
@@ -117,12 +119,17 @@ body {
   background-color: rgba(0,101,252,255);
   color: white;
   border: none;
-  height: 33px;
+  height: 43px;
   border-top-right-radius: 10px;
   border-bottom-right-radius:10px;
   padding-top: 5px;
   padding-bottom: 5px;
+  padding-right: 10px;
   margin-left: -1px;
+}
+
+.fa-magnifying-glass {
+  display: none;
 }
 
 .filtres-flex {
@@ -167,12 +174,13 @@ body {
   border: solid;
   border-width: 1px;
   margin-right: 10px;
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
   padding-top:-1px;
   color: #68a4fd;
   border-color: rgb(228, 228, 228);
+  font-size: 11px;
 }
 
 .fa-star,
@@ -212,24 +220,53 @@ body {
     display: flex;
     width: 100%;
     margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .menu-hebergement{
+    border-style: solid;
     border-bottom-color: rgba(55,134,253,255);
-    border-top: none;
+    border-left: white;
+    border-right: white;
+    border-top: white;
     width: 100%;
+    margin-left: -12%;
   }
 
   .menu-activites {
-    border-bottom-color: rgb(f2f2f2);
-    border-top: none;
+    border-style: solid;
+    border-bottom-color: #f2f2f2;
+    border-left:white;
+    border-right:white;
+    border-top:white;
     width: 100%;
+    margin-right: -12%;
   }
 
   .text-header {
     font-weight: bold;
     margin-top: 50px;
     font-size: 19px;
+  }
+
+  .recherche-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    border-bottom-left-radius:10px;
+    border-top-left-radius:10px;
+    margin-left: -3px;
+  }
+
+  .recherche-text {
+    display: none;
+  }
+
+  .fa-magnifying-glass {
+    display: block;
   }
 
   .filtres-flex {
@@ -355,7 +392,7 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 768px )  {
-  
+   
   .main-flexbox {
     display: flex;
     flex-direction:column-reverse;
@@ -496,21 +533,22 @@ body {
 }
 
 .activites-flex {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
   gap: 35px;
 }
 
 .third-white-box {
-width: 300px;
-height: 450px;
+width: 100%;
+height: 100%;
 border-radius: 20px;
 box-shadow: 3px 3px 3px 4px rgba(87, 87, 87, 0.05);
 }
 
 .img-activites {
-  width: 300px;
-  height: 390px;
+  width: 100%;
+  height: 88%;
   object-fit: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -546,6 +584,7 @@ box-shadow: 3px 3px 3px 4px rgba(87, 87, 87, 0.05);
   .activites-flex {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 35px;
   }
 
@@ -554,13 +593,13 @@ box-shadow: 3px 3px 3px 4px rgba(87, 87, 87, 0.05);
   }
 
   .third-white-box {
-    height: 90%;
-    width: 98%;
+    height: 98%;
+    width: 100%;
     padding-bottom: 10px;
   }
 
   .img-activites {
-    height: 200px;
+    height: 130px;
     width: 100%;
   }
 
@@ -579,7 +618,12 @@ box-shadow: 3px 3px 3px 4px rgba(87, 87, 87, 0.05);
 .footer-gray-box {
   background-color: #f2f2f2;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.div-footer-vide {
+  width: 10%;
 }
 
 .title-footer {
@@ -613,8 +657,20 @@ box-shadow: 3px 3px 3px 4px rgba(87, 87, 87, 0.05);
   .footer-gray-box {
     display: flex;
     flex-direction: column;
-    width: 100vmax;
-    
+    width: 100%;
+}
+
+.div-footer-vide {
+  display: none;
+}
+  .title-footer {
+   margin-top: 3%;
+   margin-left: 5%;
+}
+
+  .sous-titre-footer {
+    margin-left: 5%;
+    font-size:14px;
 }
 
 }
