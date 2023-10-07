@@ -22,7 +22,7 @@ body {
 }
 
 .h1-hebergements,
-.h1-populaires,
+.p-populaires,
 .text-activ-font {
   font-size: 22px;
 }
@@ -337,6 +337,7 @@ body {
 
 .h1-hebergements {
   margin-top: 15px;
+  margin-left: -20px;
 }
 
 .white-box-flex {
@@ -470,6 +471,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .second-white-box {
@@ -562,10 +564,10 @@ body {
 }
 
 .third-white-box {
-width: 94%;
+width: 92%;
 height: 95%;
 border-radius: 20px;
-box-shadow: 1px 1px 1px 3px rgba(114, 114, 114, 0.05);
+box-shadow: 1px 1px 1px 3px rgba(114, 114, 114, 0.08);
 }
 
 .img-activites {
