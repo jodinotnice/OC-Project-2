@@ -46,11 +46,13 @@ body {
   text-decoration: none;
   color: rgb(0,101,252);
   padding-top: 15px;
-  margin-top: -8px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: -8px;;
   margin-right: 50px;
   background-color: white;
   border-style: solid;
-  border-width: 2px;
+  border-width: 3px;
   border-top-color: 100% solid rgb(0,101,252);
   border-left: white;
   border-right: white;
@@ -63,12 +65,14 @@ body {
   color: rgb(0,101,252);
 }
 
+
 .redirec-activites {
   text-decoration: none;
   padding-top: 17px;
   padding-right: 20px;
   padding-left: 20px;
   margin-top: -8px;
+  margin-left:-50px;
   border-style: solid;
   background-color: white;
   border-left:none;
@@ -85,16 +89,12 @@ body {
 .redirec-activites:hover {
   text-decoration: none;
   color: rgb(0,101,252);
-  padding-top: 15px;
-  margin-top: -8px;
-  background-color: white;
   border-style: solid;
-  border-width: 2px;
+  border-width: 3px;
   border-top-color: rgb(0,101,252);
   border-left: white;
   border-right: white;
   border-bottom: white;
-  font-size: 16px;
 }
 
 .general-link {
@@ -218,14 +218,14 @@ body {
 .fa-fire,
 .fa-chart-line {
   color: #0065fc;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .fa-money-bill-wave,
 .fa-person,
 .fa-heart,
 .fa-fire {
-  margin-right: 10px;
+  margin-right: 9px;
 }
 
 .grey-color {
@@ -237,7 +237,7 @@ body {
 }
 
 
-@media (min-width: 320px) and (max-width: 768px )  {
+@media (max-width: 768px )  {
 
   html,
   body {
@@ -299,6 +299,10 @@ body {
     font-size: 19px;
   }
 
+  .search-flex {
+    justify-content: center;
+  }
+
   .recherche-button {
     display: flex;
     align-items: center;
@@ -337,7 +341,9 @@ body {
     width: 45%;
     flex-wrap: nowrap;
     margin-bottom: 15px;
+    font-size: 12px;
   }
+
 }
 
 .main-flexbox{
