@@ -39,7 +39,7 @@ body {
 
 .header-flex-menu {
   display: flex;
-  border:none;
+  border: none;
 }
 
 .redirec-heberg {
@@ -55,7 +55,6 @@ body {
   border-right: white;
   border-bottom: white;
   font-size: 16px;
-  text-decoration: none;
   margin-right: 50px;
 }
 
@@ -218,6 +217,7 @@ body {
 .last-box-header {
   margin-bottom: 20px;
 }
+
 
 @media (min-width: 320px) and (max-width: 768px )  {
 
@@ -388,6 +388,11 @@ body {
     max-width: 1440px;
     margin: auto;
   }
+  
+  .redirec-heberg {
+    margin-top: 0;
+  }
+
   .white-box {
     width: 29%;
   }
