@@ -463,7 +463,7 @@ body {
   flex-direction: column;
   background-color: #f2f2f2;
   border-radius: 20px;
-  padding-right: 35px;
+  padding-right: 30px;
   padding-left: 30px;
 }
 
@@ -524,7 +524,15 @@ body {
 
   .second-gray-box {
    padding-left: 30px;
-   padding-right: 30px;
+  
+  }
+
+  .second-white-box {
+    width: 100%;
+  }
+
+  .img-populaires {
+    width: 50%;
   }
 
   .pop-text-font {
