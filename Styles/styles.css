@@ -43,26 +43,57 @@ body {
 }
 
 .redirec-heberg {
-  text-decoration: none;
-  color: rgb(0,101,252);
-  padding-top: 15px;
+ text-decoration: none;
+  padding-top: 17px;
   padding-right: 20px;
   padding-left: 20px;
-  margin-top: -8px;;
+  margin-top: -8px;
   margin-right: 50px;
-  background-color: white;
   border-style: solid;
-  border-width: 3px;
-  border-top-color: 100% solid rgb(0,101,252);
-  border-left: white;
-  border-right: white;
+  background-color: white;
+  border-left:none;
+  border-right: none;
   border-bottom: white;
+  border-top:white;
   font-size: 16px;
   
 }
 
 .redirec-heberg:visited {
+  color: black;
+}
+
+.redirec-heberg:hover {
+  text-decoration: none;
   color: rgb(0,101,252);
+  border-style: solid;
+  border-width: 3px;
+  border-top-color: rgb(0,101,252);
+  border-left: white;
+  border-right: white;
+  border-bottom: white;
+}
+
+.redirec-heberg:active {
+  text-decoration: none;
+  color: rgb(0,101,252);
+  border-style: solid;
+  border-width: 3px;
+  border-top-color: rgb(0,101,252);
+  border-left: white;
+  border-right: white;
+  border-bottom: white;
+}
+
+.redirec-heberg:focus {
+  text-decoration: none;
+  color: rgb(0,101,252);
+  border-style: solid;
+  border-width: 3px;
+  border-top-color: rgb(0,101,252);
+  border-left: white;
+  border-right: white;
+  border-bottom: white;
 }
 
 
@@ -261,7 +292,7 @@ body {
 
   .redirec-heberg {
     border-style: solid;
-    border-bottom-color: #0065fc;
+    border-bottom-color: #f2f2f2;
     border-left: white;
     border-right: white;
     border-top: white;
@@ -270,6 +301,39 @@ body {
     margin-right: -6%;
     text-align: center;
     padding-bottom: 10px;
+  }
+
+  .redirec-heberg:hover {
+    text-decoration: none;
+    color: rgb(0,101,252);
+    border-style: solid;
+    border-width: 3px;
+    border-bottom-color: rgb(0,101,252);
+    border-left: white;
+    border-right: white;
+    border-top: white;
+  }
+  
+  .redirec-heberg:active {
+    text-decoration: none;
+    color: rgb(0,101,252);
+    border-style: solid;
+    border-width: 3px;
+    border-bottom-color: rgb(0,101,252);
+    border-left: white;
+    border-right: white;
+    border-top: white;
+  }
+  
+  .redirec-heberg:focus {
+    text-decoration: none;
+    color: rgb(0,101,252);
+    border-style: solid;
+    border-width: 3px;
+    border-bottom-color: rgb(0,101,252);
+    border-left: white;
+    border-right: white;
+    border-top: white;
   }
 
   .redirec-activites {
@@ -291,6 +355,26 @@ body {
     border-left:white;
     border-right:white;
     border-top:white;
+  }
+
+  .redirec-activites:active {
+    color: rgb(0,101,252);
+    border-style: solid;
+    border-width: 3px;
+    border-bottom-color: rgb(0,101,252);
+    border-left: white;
+    border-right: white;
+    border-top: white;
+  }
+  
+  .redirec-activites:focus {
+    color: rgb(0,101,252);
+    border-style: solid;
+    border-width: 3px;
+    border-bottom-color: rgb(0,101,252);
+    border-left: white;
+    border-right: white;
+    border-top: white;
   }
 
   .text-header {
